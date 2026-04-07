@@ -9,7 +9,7 @@ import { formatDuration } from './utils/route';
 import type { LatLng, Stop, RouteInfo } from './types';
 import { STOP_TYPE_ICONS } from './types';
 
-const GOOGLE_API_KEY = 'REMOVED_API_KEY';
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 
 interface RouteData {
   path: google.maps.LatLng[];
