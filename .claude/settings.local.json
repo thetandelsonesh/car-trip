@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(cp -r /Users/thetandelsonesh/Desktop/car-trip-app/* /Users/thetandelsonesh/Desktop/car-trip/)",
+      "Bash(cp /Users/thetandelsonesh/Desktop/car-trip-app/.gitignore /Users/thetandelsonesh/Desktop/car-trip/)",
+      "Bash(rm -rf /Users/thetandelsonesh/Desktop/car-trip-app)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:developers.google.com)",
+      "WebSearch"
+    ]
+  }
+}
